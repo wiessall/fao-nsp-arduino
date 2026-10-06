@@ -10,10 +10,16 @@
     <loc>https://carpentries.github.io/workbench-template-md/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/citation.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/from-variables-to-controlling-a-led.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/images.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/index.html</loc>
@@ -28,16 +34,28 @@
     <loc>https://carpentries.github.io/workbench-template-md/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/citation.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/from-variables-to-controlling-a-led.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/index.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/intro-iot-oss-arduino.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/profiles.html</loc>
@@ -49,7 +67,13 @@
     <loc>https://carpentries.github.io/workbench-template-md/instructor/using-sensors.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/intro-iot-oss-arduino.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/profiles.html</loc>
