@@ -66,13 +66,18 @@ contact: 'tristan.wiessalla@fao.org'
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
-- intro-iot-oss-arduino.Rmd
-- from-variables-to-controlling-a-led.Rmd
-- using-sensors.Rmd
-- 3-arduino-ide-types-variables.md
-- meet-the-arduino.md
-- Intro-IoT-for-Horticulture.md
+   episodes:
+   - intro-iot-horticulture.md
+   - meet-the-arduino.md
+   - 3-arduino-ide-types-variables.md
+   - using-sensors.Rmd
+   - from-variables-to-controlling-a-led.Rmd
+   
+# - intro-iot-oss-arduino.Rmd
+#- using-sensors.Rmd
+#- 3-arduino-ide-types-variables.md
+#- meet-the-arduino.md
+#- Intro-IoT-for-Horticulture.md
 
 # Information for Learners
 learners: 
