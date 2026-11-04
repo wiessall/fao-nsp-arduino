@@ -10,6 +10,7 @@ exercises: 5
 - How does the board connect to a computer, to power and to the environment?
 - What is the difference between digital and analog pins?
 - How does Arduino compare with other boards such as the Raspberry Pi?
+- How can an Arduino become part of the Internet of Things?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -20,7 +21,13 @@ exercises: 5
 - Compare Arduino with other microcontroller boards and with a single-board computer
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
+Kit distribution and environment check: hand out the boards and USB cables,
+and check that every participant has the Arduino IDE installed and can
+select their board under **Tools → Board** as well as the right port.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## The microcontroller development board
 
 The Arduino is a **microcontroller development board**:
@@ -29,6 +36,18 @@ The Arduino is a **microcontroller development board**:
   runs our program.
 - The **board** around it gives us access to the microcontroller's **pins**,
   which is what makes it possible to program it and connect it to the world.
+
+Arduinos are an **open-source electronics platform**, designed to teach people
+about electronics. They can be used to build electronic circuits that can be
+connected to the Internet, to serve as part of the Internet's sensing. The
+microcontroller is an "integrated circuit" (or chip) that can be used together
+with other electronic components to control things such as motors and sensors.
+It is, in actual fact, a very small computer that can be programmed.
+
+![The original and most basic Arduino - the Arduino Uno](fig/Arduino_Uno_-_R3.jpg){alt='Photo of a blue Arduino Uno board seen from above.'}
+
+Photo: SparkFun Electronics from Boulder, USA,
+[CC BY 2.0](https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons.
 
 ![Main parts of an Arduino Uno-type board](fig/arduino-board-overview.png){alt='Drawing of an Arduino Uno with labels: USB port, USB-to-serial converter, power jack, microcontroller chip, digital pins 0 to 13 along the top, power pins and analog pins A0 to A5 along the bottom.'}
 
@@ -91,12 +110,49 @@ There are many similar boards:
 
 - **Arduino Uno**: the reference board we use to learn.
 - **Arduino Mega**: same layout, more pins and more memory for larger programs.
-- **ESP32**: another popular microcontroller board.
+- **ESP32** and ESP8266: popular alternatives, often significantly cheaper
+  than Arduinos and with onboard Wi-Fi.
 - **Arduino Nano** and other small boards: good for a final product, but hard
   to learn on because the pin labels are tiny.
 
 Full-size boards are very good for **prototyping**. Once you are confident,
 you move to a smaller form factor for the final product.
+
+## Connecting to the internet
+
+The main thing to notice about the Arduino Uno is that it has no connectivity
+to the Internet. So even if we connect sensors to it, it cannot be part of the
+Internet of Things until it is connected to the Internet. However, one can
+purchase (or build) a **Wi-Fi shield** that fits on top of the Arduino. With
+the shield in place, you can program the Arduino to connect to the Internet
+and publish the data it retrieves from its sensors.
+
+![A Wi-Fi shield for the Arduino Uno](fig/WiFi_Shield_for_Arduino.jpg){alt='Photo of a Wi-Fi shield: a board whose pins fit on top of an Arduino Uno.'}
+
+Photo: oomlout, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0),
+via Wikimedia Commons.
+
+There are now several models of Arduino with onboard Wi-Fi or Bluetooth. See
+the [Arduino hardware page](https://www.arduino.cc/en/hardware) for the whole
+range. Often, boards from the **ESP32** or ESP8266 series are chosen because
+they have onboard Wi-Fi and are significantly cheaper than Arduinos.
+
+![An ESP32 WROOM 32](fig/ESP32.jpg){alt='Photo of an ESP32 WROOM 32 development board.'}
+
+Photo: Ubahnverleih, CC0, via Wikimedia Commons.
+
+::::::::::::::::::::::::::::::::: callout
+
+### What we need from a board
+
+For the projects in this course, any board will do as long as it:
+
+1. is **Wi-Fi enabled**, and
+2. can be programmed with the **Arduino IDE** (Integrated Development
+   Environment): the program in which we write code and upload it to the
+   board.
+
+:::::::::::::::::::::::::::::::::::::::::
 
 ## Arduino vs Raspberry Pi
 
@@ -149,5 +205,5 @@ With Arduino, the limit is your creativity. It is not as complicated or as
 - Digital pins are 0 or 1 (0 V or 5 V); analog pins read a range of voltages (0–1023 on the Uno).
 - GND closes every circuit; 5V, 3.3V and VIN provide the positive supply.
 - Arduino is a specialist: simpler, cheaper on energy and more precise in timing than a Raspberry Pi.
-
+- An Arduino Uno needs a Wi-Fi shield to join the IoT; boards such as the ESP32 have Wi-Fi built in.
 ::::::::::::::::::::::::::::::::::::::::::::::::
