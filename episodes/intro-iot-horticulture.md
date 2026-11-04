@@ -55,6 +55,8 @@ environmental needs. Take a single parameter, temperature:
 | Broccoli | In its "dead zone": poor growth |
 | Maize    | Good growing conditions         |
 
+![Growth response of broccoli and maize to temperature](<fig/Screenshot 2026-11-04 181226.png>){alt='Graph of growth response against temperature.'}
+
 Matching what a crop needs with the conditions actually measured is, in a
 nutshell, how science-based advice works.
 
@@ -196,6 +198,8 @@ system:
    data can be reviewed, and combined with forecasting models.
 5. An **app** gives the user access to the data from anywhere: the farmer,
    but also an extension officer working remotely.
+   
+![An IoT monitoring device installed at canopy level in a greenhouse (left), and a online dashboard showing air temperature and humidity over time, with a maximum-temperature alert (right)](<fig/Screenshot 2026-11-04 181356.png>){alt='Left: a white weatherproof box with an antenna, mounted on a pole between pepper plants in a greenhouse. Right: dashboard cards showing air temperature and air humidity'}
 
 ::::::::::::::::::::::::::::::::: callout
 
