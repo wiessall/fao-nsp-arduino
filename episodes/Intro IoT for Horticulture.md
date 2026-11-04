@@ -1,10 +1,10 @@
 ---
 title: 'Intro IoT for Horticulture'
 teaching: 15
-exercises: 0 <!- - not sure about this as we had no exercises - ->
+exercises: 0  
 ---
 
-:::::::::::::::::::::::::::::::::::::: questions <!- - New box with typeID - ->
+:::::::::::::::::::::::::::::::::::::: questions <!-- New box with typeID (questions, objectives, callout...) -->
 
 Can open-source technology and IoT bring precision agriculture to smallholder farmers?
 How does an electronic sensor turn the environment into data?
@@ -14,7 +14,7 @@ Why does owning the technology and the data matter?
 :::::::::::::::::::::::::::::::::::::::::::::::: <!- - To close the box - ->
 
 
-::::::::::::::::::::::::::::::::::::: objectives
+::::::::::::::::::::::::::::::::::::: objectives <!-- '##' = section heading (shows in the page's table of contents). '###' = sub-section. -->
 
 Explain how crop-specific environmental needs lead to science-based advice
 Describe how a sensor converts an environmental parameter into a measurable signal
@@ -27,7 +27,7 @@ The guiding question
 
 This course keeps coming back to one question:
 
-Will open-source technology and IoT popularize precision agriculture among smallholder farmers?
+> Will open-source technology and IoT popularize precision agriculture among smallholder farmers? <!-- '>' renders as a highlighted quote -->
 
 To answer it, we need to understand how the technology works, so that we can adapt it to the challenges and projects we work on in agrifood systems (AFS) and horticulture. That is why we start by stepping back to the basics: understanding the building blocks is what allows us to make a leap later.
 
