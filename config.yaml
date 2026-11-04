@@ -71,6 +71,8 @@ episodes:
 - from-variables-to-controlling-a-led.Rmd
 - using-sensors.Rmd
 - 3-arduino-ide-types-variables.md
+- meet-the-arduino.md
+- Intro-IoT-for-Horticulture.md
 
 # Information for Learners
 learners: 
