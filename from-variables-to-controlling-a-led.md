@@ -10,7 +10,8 @@ exercises: 25
 - What are variables in programming?
 - How do I write simple instructions in computer code?
 - How do I connect an Arduino to real-life devices such as LEDs?
-
+- yet another question?
+- and anther
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
