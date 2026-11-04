@@ -11,6 +11,7 @@ exercises: 25
 - How do I write simple instructions in computer code?
 - How do I connect an Arduino to real-life devices such as LEDs?
 - yet another question?
+- and anther
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
