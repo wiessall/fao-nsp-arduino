@@ -26,3 +26,7 @@ exercises: 25
 ## Variables and data types
 ## Basic electronics and solderless wiring
 ## Digital output
+
+```C
+int example = 40;
+```
