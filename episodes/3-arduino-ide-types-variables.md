@@ -65,6 +65,8 @@ void loop () {
     delay(1000);
 }
 ```
+::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 :::::::::::::::::::::::: solution 
 
@@ -84,6 +86,7 @@ Great job! Now try to experiment with the code a bit:
 
 1. Try to alter the ```print``` statement to a ```println``` statement.
 2. Change the value of the ```delay``` statements in your sketch.
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 :::::::::::::::::::::::: solution 
