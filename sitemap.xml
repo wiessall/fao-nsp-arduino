@@ -67,6 +67,9 @@
     <loc>https://carpentries.github.io/workbench-template-md/instructor/key-points.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/libraries.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/meet-the-arduino.html</loc>
   </url>
   <url>
@@ -74,6 +77,9 @@
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/relays.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/using-sensors.html</loc>
@@ -91,6 +97,9 @@
     <loc>https://carpentries.github.io/workbench-template-md/key-points.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/libraries.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/meet-the-arduino.html</loc>
   </url>
   <url>
@@ -98,6 +107,9 @@
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/relays.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/using-sensors.html</loc>

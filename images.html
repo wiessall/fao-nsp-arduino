@@ -301,6 +301,30 @@
 </div>
 <!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush7">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading7">
+        <a href="relays.html">6. Relays: controlling real-world devices</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush8">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading8">
+        <a href="libraries.html">7. Libraries: building on code shared by the community</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
                 </div>
               </div>
             </div>
@@ -437,7 +461,32 @@ Sun arise each and every morning
 <p aria-hidden="true">Image 1 of 1: ‘Blue Carpentries hex person logo with no text.’</p>
 <figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><div class="figcaption">You belong in The Carpentries!</div>
 </figure><hr></section><section id="from-variables-to-controlling-a-led"><h2 class="section-heading"><a href="from-variables-to-controlling-a-led.html">From variables to controlling a LED</a></h2>
-<hr class="half-width"></section>
+<hr class="half-width"></section><section id="relays"><h2 class="section-heading"><a href="relays.html">Relays: controlling real-world devices</a></h2>
+<hr class="half-width">
+<h3 id="relays-figure-1">Figure 1</h3>
+<p aria-hidden="true">Image 1 of 1: ‘Diagram split in two by a dashed line. Left, the Arduino side: pin 7 connected to a coil. Right, the device side: a switch, a 230 V supply and a lamp in a loop. An arrow labelled magnetic pull goes from the coil to the switch.’</p>
+<figure><img src="fig/relay-principle.png" alt="Diagram split in two by a dashed line. Left, the Arduino side: pin 7 connected to a coil. Right, the device side: a switch, a 230 V supply and a lamp in a loop. An arrow labelled magnetic pull goes from the coil to the switch." class="figure mx-auto d-block"><div class="figcaption">The coil on the Arduino side moves a switch on
+the device side: the two circuits never touch</div>
+</figure><hr>
+<h3 id="relays-figure-2">Figure 2</h3>
+<p aria-hidden="true">Image 1 of 1: ‘Drawing of a relay module. On the left, three screw terminals labelled NO (normally open), COM (common) and NC (normally closed) for the high-voltage side. On the right, three pins labelled VCC to 5V, GND to GND and IN to a digital pin for the Arduino side. A status LED sits in the corner.’</p>
+<figure><img src="fig/relay-module.png" alt="Drawing of a relay module. On the left, three screw terminals labelled NO (normally open), COM (common) and NC (normally closed) for the high-voltage side. On the right, three pins labelled VCC to 5V, GND to GND and IN to a digital pin for the Arduino side. A status LED sits in the corner." class="figure mx-auto d-block"><div class="figcaption">A one-channel relay module</div>
+</figure><hr>
+<h3 id="relays-figure-3">Figure 3</h3>
+<p aria-hidden="true">Image 1 of 1: ‘Four small circuit diagrams in a grid. Wired to NO: device off when the relay is off, device on when the relay is on. Wired to NC: device on when the relay is off, device off when the relay is on.’</p>
+<figure><img src="fig/relay-no-nc.png" alt="Four small circuit diagrams in a grid. Wired to NO: device off when the relay is off, device on when the relay is on. Wired to NC: device on when the relay is off, device off when the relay is on." class="figure mx-auto d-block"><div class="figcaption">The four combinations of wiring (NO or NC) and
+relay state (off or on)</div>
+</figure><hr>
+<h3 id="relays-figure-4">Figure 4</h3>
+<p aria-hidden="true">Image 1 of 1: ‘Wiring diagram. Arduino 5V to relay VCC with a red wire, GND to GND with a black wire, pin 7 to IN with a green wire. On the other side, the battery plus goes to COM, NO goes to the motor, and the motor goes back to the battery minus.’</p>
+<figure><img src="fig/relay-motor-wiring.png" alt="Wiring diagram. Arduino 5V to relay VCC with a red wire, GND to GND with a black wire, pin 7 to IN with a green wire. On the other side, the battery plus goes to COM, NO goes to the motor, and the motor goes back to the battery minus." class="figure mx-auto d-block"><div class="figcaption">Wiring for the exercise</div>
+</figure><hr></section><section id="libraries"><h2 class="section-heading"><a href="libraries.html">Libraries: building on code shared by the community</a></h2>
+<hr class="half-width">
+<h3 id="libraries-figure-1">Figure 1</h3>
+<p aria-hidden="true">Image 1 of 1: ‘Five boxes connected by arrows: 1 read the datasheet and documentation, 2 install the library with the Library Manager, 3 open an example under File, Examples, 4 wire, upload and check the Serial Monitor, 5 modify the example for your project.’</p>
+<figure><img src="fig/library-workflow.png" alt="Five boxes connected by arrows: 1 read the datasheet and documentation, 2 install the library with the Library Manager, 3 open an example under File, Examples, 4 wire, upload and check the Serial Monitor, 5 modify the example for your project." class="figure mx-auto d-block"><div class="figcaption">From a new component to your own project, in
+five steps</div>
+</figure><hr></section>
 </div>
     </main>
 </div>
@@ -487,8 +536,8 @@ Sun arise each and every morning
   "url": "https://carpentries.github.io/workbench-template-md/images.html",
   "identifier": "https://carpentries.github.io/workbench-template-md/images.html",
   "dateCreated": "2026-10-02",
-  "dateModified": "2026-11-10",
-  "datePublished": "2026-11-10"
+  "dateModified": "2026-11-16",
+  "datePublished": "2026-11-16"
 }
 
   </script><script>

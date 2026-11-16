@@ -301,6 +301,30 @@
 </div>
 <!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush7">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading7">
+        <a href="relays.html">6. Relays: controlling real-world devices</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush8">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading8">
+        <a href="libraries.html">7. Libraries: building on code shared by the community</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
                 </div>
               </div>
             </div>
@@ -416,7 +440,35 @@ with your lesson</li>
 <li>Run <code>sandpaper::build_lesson()</code> to preview your lesson
 locally</li>
 </ul></section><section id="from-variables-to-controlling-a-led"><h2 class="section-heading"><a href="from-variables-to-controlling-a-led.html">From variables to controlling a LED</a></h2>
-<hr class="half-width"></section>
+<hr class="half-width"></section><section id="relays"><h2 class="section-heading"><a href="relays.html">Relays: controlling real-world devices</a></h2>
+<hr class="half-width">
+<ul>
+<li>Microcontrollers work at 3.3–5 V with very small currents;
+real-world devices need far more, so never connect them directly.</li>
+<li>A relay is a switch operated by electricity: a coil on the Arduino
+side moves a switch on the device side, and the two circuits stay
+separate.</li>
+<li>Read the label: the maximum loads the relay can switch, and the
+voltage that triggers it (05VDC = 5 V).</li>
+<li>The Arduino side has VCC, GND and IN; the device side has COM, NO
+and NC.</li>
+<li>Normally open means off by default and is usually the safer choice;
+normally closed means on by default.</li>
+<li>The Arduino sends a signal; the device is powered by its own
+circuit.</li>
+</ul></section><section id="libraries"><h2 class="section-heading"><a href="libraries.html">Libraries: building on code shared by the community</a></h2>
+<hr class="half-width">
+<ul>
+<li>Libraries are pre-written code, mostly shared freely by the
+community, that let us use complex hardware quickly.</li>
+<li>Install libraries with the Library Manager; prefer well-documented
+ones that support your board.</li>
+<li>Read the component’s datasheet and the library’s documentation
+before wiring and coding.</li>
+<li>Most libraries follow four steps: include, create an object,
+initialize it in setup(), call its functions in loop().</li>
+<li>Start from a working example, then modify it for your project.</li>
+</ul></section>
 </div>
     </main>
 </div>
@@ -466,8 +518,8 @@ locally</li>
   "url": "https://carpentries.github.io/workbench-template-md/key-points.html",
   "identifier": "https://carpentries.github.io/workbench-template-md/key-points.html",
   "dateCreated": "2026-10-02",
-  "dateModified": "2026-11-10",
-  "datePublished": "2026-11-10"
+  "dateModified": "2026-11-16",
+  "datePublished": "2026-11-16"
 }
 
   </script><script>
