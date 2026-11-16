@@ -72,6 +72,8 @@ episodes:
    - 3-arduino-ide-types-variables.md
    - using-sensors.Rmd
    - from-variables-to-controlling-a-led.Rmd
+   - relays.md
+   - libraries.md
    
 # - intro-iot-oss-arduino.Rmd
 #- using-sensors.Rmd
