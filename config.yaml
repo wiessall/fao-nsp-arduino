@@ -74,6 +74,7 @@ episodes:
    - from-variables-to-controlling-a-led.Rmd
    - relays.md
    - libraries.md
+   - environmental-station.md
    
 # - intro-iot-oss-arduino.Rmd
 #- using-sensors.Rmd
