@@ -50,6 +50,13 @@ We work in two steps:
 
 Both sensors connect to the **same four wires**.
 
+![The environmental station on an UNO R4 WiFi: both sensors share the same four wires.](fig/Environmental_Monitoring_Station_bb.jpg){alt='Breadboard drawing. An Arduino UNO R4 WiFi is connected to a breadboard with four wires: red from 5V, black from GND, yellow from SCL and green from SDA. An SHT31 temperature and humidity sensor and a GY-30 light sensor (BH1750) are both connected to these same four lines.'}
+
+The wire colours: **red** = VCC, **black** = GND, **yellow** = SCL,
+**green** = SDA. On an ESP32-C3, use the same colours, with the pins in the
+right-hand column of the table below.
+
+
 | Sensor pin | UNO R3 / R4 Minima / R4 WiFi | ESP32-C3 SuperMini |
 |------------|------------------------------|--------------------|
 | VCC | 5V | 3V3 |
